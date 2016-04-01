@@ -11,7 +11,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='djangocms-foundation',
     version='0.0.1',
-    packages=['django_sb_admin'],
+    packages=['djangocms_foundation'],
     include_package_data=True,
     license='Apache License version 2.0',
     description='Foundation 6 plugin for Django CMS.',
